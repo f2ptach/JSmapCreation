@@ -1,0 +1,18 @@
+#game-container {
+    position: relative;
+}
+
+#backCanvas,
+#myCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#backCanvas {
+    z-index: 0;
+}
+
+#myCanvas {
+    z-index: 1;
+}
